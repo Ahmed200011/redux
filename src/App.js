@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ApComponant from "./component/ApComponant";
+// import CakcContaner from './component/CakecContaner'
+// import HooksCakcContainer from "./component/HooksCakcContainer";
+// import HooksIceContainer from "./component/HooksIceContainer";
+// import HooksteeContainer from "./component/HooksTeeContainer";
+// import NewHooksCakcContainer from "./component/NewHooksCakcContainer";
+// import ItamComponaint from "./component/ItamComponaint";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/*<CakcContaner/>
+      <ItamComponaint cake />
+      <ItamComponaint ice />
+      <HooksCakcContainer />
+      <HooksIceContainer />
+      <HooksteeContainer />
+      <NewHooksCakcContainer />*/}
+      <ApComponant/>
+
     </div>
   );
-}
+};
 
 export default App;
